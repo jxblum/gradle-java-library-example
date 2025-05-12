@@ -1,0 +1,8 @@
+[[codeprimate-examples-java-library-gradle-project]]
+= Java Library Gradle Project Example
+
+This repository contains an example Gradle `Project` that uses the Gradle `java-library` Plugin to build, publish and distribute a Java library (of common, reusable classes and components) in a binary (JAR).
+
+It uses https://docs.gradle.org/current/userguide/getting_started_dep_man.html[Gradle's Dependency Management] or (vs.) the https://docs.spring.io/dependency-management-plugin/docs/current/reference/html/[Spring Dependency Management Plugin] to resolve (imported and/or declared) library dependencies.
+
+The Maven POM file of the Java library published by the project can then be inspected to assert that all dependencies have been properly resolved during publication.
